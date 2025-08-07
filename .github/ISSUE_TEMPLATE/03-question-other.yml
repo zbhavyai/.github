@@ -1,6 +1,5 @@
-name: Question / Other
+name: Other
 description: Ask a question, suggest documentation changes, or share general feedback
-title: "[OTHER] "
 assignees: ["zbhavyai"]
 
 body:

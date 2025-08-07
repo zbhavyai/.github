@@ -1,6 +1,5 @@
 name: Feature request
 description: Request or propose a new feature or enhancement
-title: "[FEAT] "
 labels: ["enhancement"]
 assignees: ["zbhavyai"]
 
