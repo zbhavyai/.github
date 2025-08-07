@@ -1,0 +1,20 @@
+name: Feature request
+description: Request or propose a new feature or enhancement
+title: "[FEAT] "
+labels: ["enhancement"]
+assignees: ["zbhavyai"]
+
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: Describe the feature here, including any relevant use cases.
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation ideas
+      description: If you have any implementation ideas, they can go here.

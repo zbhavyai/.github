@@ -1,0 +1,13 @@
+name: Question / Other
+description: Ask a question, suggest documentation changes, or share general feedback
+title: "[OTHER] "
+assignees: ["zbhavyai"]
+
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: Describe your question or other issue here.
