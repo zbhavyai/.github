@@ -2,8 +2,7 @@ name: Create release
 
 on:
   push:
-    tags:
-      - "v*"
+    tags: ["v*.*.*"]
 
 jobs:
   create-release:
