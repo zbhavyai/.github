@@ -1,0 +1,24 @@
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Have a vision for a new feature?** Use this form to brainstorm and gather feedback.
+        *If you already have a concrete, technical specification, feel free to open a **Feature Request** issue instead.*
+
+  - type: textarea
+    id: concept
+    attributes:
+      label: The big picture
+      description: What is the core concept?
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation
+      description: How do you imagine this working?
+    validations:
+      required: true
