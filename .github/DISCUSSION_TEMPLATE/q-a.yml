@@ -1,0 +1,38 @@
+labels: ["help wanted"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Need help?** Describe your situation below.
+        *If you have identified a specific, reproducible bug, please use the **Bug Report** issue template instead.*
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to achieve?
+      description: Describe your goal clearly and concisely.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+      description: Share code snippets, commands, or documentation you've followed.
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS details, project version, etc
+      placeholder: |
+        OS: Fedora Workstation 42
+        Kernel: 6.15.9
+        Container Engine: Podman 5.5.2
+        Java: Temurin 21.0.7
+        Project version/commit: `d2c8401`
+    validations:
+      required: false
